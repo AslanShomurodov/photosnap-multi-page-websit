@@ -245,4 +245,232 @@ body {
 }
 .wrapper .section-3 .sec-3-img {
   overflow: hidden;
+}
+.wrapper .main-forms {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  height: 500px;
+  background-color: aqua;
+}
+.wrapper .main-forms .form-1 {
+  width: 100%;
+  max-width: 360px;
+  height: 500px;
+  background-color: red;
+  background-image: url(../img/main-form1-img.png);
+}
+.wrapper .main-forms .form-1 .form-1-menu {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 100px;
+  top: 361px;
+  left: 40px;
+}
+.wrapper .main-forms .form-1 .form-1-menu .form-1-menu-p1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.wrapper .main-forms .form-1 .form-1-menu .form-1-menu-p2 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.wrapper .main-forms .form-1 .form-1-menu .line {
+  width: 100%;
+  max-width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+}
+.wrapper .main-forms .form-1 .form-1-menu .form1-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.wrapper .main-forms .form-2 {
+  width: 100%;
+  max-width: 360px;
+  height: 500px;
+  background-color: red;
+  background-image: url(../img/main-form2-img.png);
+}
+.wrapper .main-forms .form-2 .form-2-menu {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 100px;
+  top: 361px;
+  left: 40px;
+}
+.wrapper .main-forms .form-2 .form-2-menu .form-2-menu-p1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.wrapper .main-forms .form-2 .form-2-menu .form-2-menu-p2 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.wrapper .main-forms .form-2 .form-2-menu .line {
+  width: 100%;
+  max-width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+}
+.wrapper .main-forms .form-2 .form-2-menu .form2-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.wrapper .main-forms .form-3 {
+  width: 100%;
+  max-width: 360px;
+  height: 500px;
+  background-color: red;
+  background-image: url(../img/main-form3-img.png);
+}
+.wrapper .main-forms .form-3 .form-3-menu {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 100px;
+  top: 361px;
+  left: 40px;
+}
+.wrapper .main-forms .form-3 .form-3-menu .form-3-menu-p1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.wrapper .main-forms .form-3 .form-3-menu .form-3-menu-p2 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.wrapper .main-forms .form-3 .form-3-menu .line {
+  width: 100%;
+  max-width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+}
+.wrapper .main-forms .form-3 .form-3-menu .form3-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.wrapper .main-forms .form-4 {
+  width: 100%;
+  max-width: 360px;
+  height: 500px;
+  background-color: red;
+  background-image: url(../img/main-form4-img.png);
+}
+.wrapper .main-forms .form-4 .form-4-menu {
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  height: 100px;
+  top: 361px;
+  left: 40px;
+}
+.wrapper .main-forms .form-4 .form-4-menu .form-4-menu-p1 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px;
+}
+.wrapper .main-forms .form-4 .form-4-menu .form-4-menu-p2 {
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 4px;
+}
+.wrapper .main-forms .form-4 .form-4-menu .line {
+  width: 100%;
+  max-width: 280px;
+  height: 1px;
+  opacity: 0.25;
+  background: #FFF;
+  margin-top: 16px;
+}
+.wrapper .main-forms .form-4 .form-4-menu .form4-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 280px;
+  margin-top: 20px;
+  background-color: transparent;
+  color: #FFF;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
 }/*# sourceMappingURL=style.css.map */

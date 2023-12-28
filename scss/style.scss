@@ -129,17 +129,20 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
-                    img{
+
+                    img {
                         position: relative;
                         top: 4px;
                     }
                 }
             }
         }
-        .sec-1-img{
+
+        .sec-1-img {
             overflow: hidden;
         }
     }
+
     .section-2 {
         display: flex;
         max-width: 1440px;
@@ -194,17 +197,20 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
-                    img{
+
+                    img {
                         position: relative;
                         top: 4px;
                     }
                 }
             }
         }
-        .sec-2-img{
+
+        .sec-2-img {
             overflow: hidden;
         }
     }
+
     .section-3 {
         display: flex;
         max-width: 1440px;
@@ -259,15 +265,267 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
-                    img{
+
+                    img {
                         position: relative;
                         top: 4px;
                     }
                 }
             }
         }
-        .sec-3-img{
+
+        .sec-3-img {
             overflow: hidden;
+        }
+    }
+
+    .main-forms {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        max-width: 1440px;
+        height: 500px;
+        background-color: aqua;
+
+        .form-1 {
+            width: 100%;
+            max-width: 360px;
+            height: 500px;
+            background-color: red;
+            background-image: url(../img/main-form1-img.png);
+
+            .form-1-menu {
+                position: relative;
+                width: 100%;
+                max-width: 280px;
+                height: 100px;
+                top: 361px;
+                left: 40px;
+
+                .form-1-menu-p1 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+
+                .form-1-menu-p2 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 4px;
+                }
+
+                .line {
+                    width: 100%;
+                    max-width: 280px;
+                    height: 1px;
+                    opacity: 0.25;
+                    background: #FFF;
+                    margin-top: 16px;
+                }
+
+                .form1-button {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 280px;
+                    margin-top: 20px;
+                    background-color: transparent;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .form-2 {
+            width: 100%;
+            max-width: 360px;
+            height: 500px;
+            background-color: red;
+            background-image: url(../img/main-form2-img.png);
+
+            .form-2-menu {
+                position: relative;
+                width: 100%;
+                max-width: 280px;
+                height: 100px;
+                top: 361px;
+                left: 40px;
+
+                .form-2-menu-p1 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+
+                .form-2-menu-p2 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 4px;
+                }
+
+                .line {
+                    width: 100%;
+                    max-width: 280px;
+                    height: 1px;
+                    opacity: 0.25;
+                    background: #FFF;
+                    margin-top: 16px;
+                }
+
+                .form2-button {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 280px;
+                    margin-top: 20px;
+                    background-color: transparent;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .form-3 {
+            width: 100%;
+            max-width: 360px;
+            height: 500px;
+            background-color: red;
+            background-image: url(../img/main-form3-img.png);
+
+            .form-3-menu {
+                position: relative;
+                width: 100%;
+                max-width: 280px;
+                height: 100px;
+                top: 361px;
+                left: 40px;
+
+                .form-3-menu-p1 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+
+                .form-3-menu-p2 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 4px;
+                }
+
+                .line {
+                    width: 100%;
+                    max-width: 280px;
+                    height: 1px;
+                    opacity: 0.25;
+                    background: #FFF;
+                    margin-top: 16px;
+                }
+
+                .form3-button {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 280px;
+                    margin-top: 20px;
+                    background-color: transparent;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
+        }
+        .form-4 {
+            width: 100%;
+            max-width: 360px;
+            height: 500px;
+            background-color: red;
+            background-image: url(../img/main-form4-img.png);
+
+            .form-4-menu {
+                position: relative;
+                width: 100%;
+                max-width: 280px;
+                height: 100px;
+                top: 361px;
+                left: 40px;
+
+                .form-4-menu-p1 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 25px;
+                }
+
+                .form-4-menu-p2 {
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 13px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-top: 4px;
+                }
+
+                .line {
+                    width: 100%;
+                    max-width: 280px;
+                    height: 1px;
+                    opacity: 0.25;
+                    background: #FFF;
+                    margin-top: 16px;
+                }
+
+                .form4-button {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                    max-width: 280px;
+                    margin-top: 20px;
+                    background-color: transparent;
+                    color: #FFF;
+                    font-family: DM Sans;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                }
+            }
         }
     }
 }
