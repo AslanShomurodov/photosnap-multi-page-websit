@@ -69,6 +69,7 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
 }
 .wrapper .section-1 {
   display: flex;
