@@ -18,7 +18,7 @@ button {
 }
 
 body {
-  background-color: #3d2828;
+  background-color: #ffffff;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -57,6 +57,11 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+.wrapper .header .header-a-menu ul li a:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .header .header-button {
   width: 158px;
@@ -69,6 +74,12 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+.wrapper .header .header-button:hover {
+  transition: 0.5s;
+  color: #000;
+  background: #DFDFDF;
 }
 .wrapper .section {
   max-width: 1440px;
@@ -142,6 +153,11 @@ body {
   letter-spacing: 2px;
   background-color: transparent;
   margin-top: 18px;
+  cursor: pointer;
+}
+.wrapper .section .section-a-menu .sec-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #fff;
 }
 .wrapper .section .section-a-menu .sec-button img {
   position: relative;
@@ -1165,6 +1181,11 @@ body {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-a-menu ul li .a2:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .footer .min-footer .footer-a-menu ul li a {
   position: relative;
@@ -1177,6 +1198,11 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   top: 19px;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-a-menu ul li a:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .footer .min-footer .footer-buttons-form {
   width: 100%;
@@ -1196,6 +1222,11 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-buttons-form .footer-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #fff;
 }
 .wrapper .footer .min-footer .footer-buttons-form .footer-a {
   position: relative;

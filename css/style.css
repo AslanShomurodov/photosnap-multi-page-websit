@@ -57,6 +57,11 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+.wrapper .header .header-a-menu ul li a:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .header .header-button {
   width: 158px;
@@ -70,6 +75,11 @@ body {
   line-height: normal;
   letter-spacing: 2px;
   cursor: pointer;
+}
+.wrapper .header .header-button:hover {
+  transition: 0.5s;
+  color: #000;
+  background: #DFDFDF;
 }
 .wrapper .section-1 {
   display: flex;
@@ -125,6 +135,11 @@ body {
   letter-spacing: 2px;
   background-color: transparent;
   margin-top: 48px;
+  cursor: pointer;
+}
+.wrapper .section-1 .sec-1-menu .sec-1-min-menu .sec-1-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #fff;
 }
 .wrapper .section-1 .sec-1-menu .sec-1-min-menu .sec-1-button img {
   position: relative;
@@ -187,6 +202,11 @@ body {
   letter-spacing: 2px;
   background-color: transparent;
   margin-top: 48px;
+  cursor: pointer;
+}
+.wrapper .section-2 .sec-2-menu .sec-2-min-menu .sec-2-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #000000;
 }
 .wrapper .section-2 .sec-2-menu .sec-2-min-menu .sec-2-button img {
   position: relative;
@@ -249,6 +269,11 @@ body {
   letter-spacing: 2px;
   background-color: transparent;
   margin-top: 48px;
+  cursor: pointer;
+}
+.wrapper .section-3 .sec-3-menu .sec-3-min-menu .sec-3-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #000000;
 }
 .wrapper .section-3 .sec-3-menu .sec-3-min-menu .sec-3-button img {
   position: relative;
@@ -648,6 +673,11 @@ body {
   line-height: normal;
   letter-spacing: 2px;
   text-transform: uppercase;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-a-menu ul li .a2:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .footer .min-footer .footer-a-menu ul li a {
   position: relative;
@@ -660,6 +690,11 @@ body {
   letter-spacing: 2px;
   text-transform: uppercase;
   top: 19px;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-a-menu ul li a:hover {
+  transition: 0.5s;
+  opacity: 0.3;
 }
 .wrapper .footer .min-footer .footer-buttons-form {
   width: 100%;
@@ -679,6 +714,11 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 2px;
+  cursor: pointer;
+}
+.wrapper .footer .min-footer .footer-buttons-form .footer-button:hover {
+  transition: 0.5s;
+  border-bottom: 2px solid #fff;
 }
 .wrapper .footer .min-footer .footer-buttons-form .footer-a {
   position: relative;

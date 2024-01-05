@@ -58,6 +58,11 @@ body {
                         font-weight: 700;
                         line-height: normal;
                         letter-spacing: 2px;
+                        cursor: pointer;
+                        &:hover{
+                            transition: 0.5s;
+                            opacity: 0.3;
+                        }
                     }
                 }
             }
@@ -75,7 +80,11 @@ body {
             line-height: normal;
             letter-spacing: 2px;
             cursor: pointer;
-            
+            &:hover{
+                transition: 0.5s;
+                color: #000;
+                background: #DFDFDF;
+            }
 
         }
     }
@@ -136,6 +145,11 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
+                    cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #fff;
+                    }
 
                     img {
                         position: relative;
@@ -206,6 +220,11 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
+                    cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #000000;
+                    }
 
                     img {
                         position: relative;
@@ -276,6 +295,11 @@ body {
                     letter-spacing: 2px;
                     background-color: transparent;
                     margin-top: 48px;
+                    cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #000000;
+                    }
 
                     img {
                         position: relative;
@@ -724,6 +748,11 @@ body {
                             line-height: normal;
                             letter-spacing: 2px;
                             text-transform: uppercase;
+                            cursor: pointer;
+                        &:hover{
+                            transition: 0.5s;
+                            opacity: 0.3;
+                        }
                         }
 
                         a {
@@ -737,6 +766,11 @@ body {
                             letter-spacing: 2px;
                             text-transform: uppercase;
                             top: 19px;
+                            cursor: pointer;
+                        &:hover{
+                            transition: 0.5s;
+                            opacity: 0.3;
+                        }
                         }
                     }
                 }
@@ -760,6 +794,11 @@ body {
                     font-weight: 700;
                     line-height: normal;
                     letter-spacing: 2px;
+                    cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #fff;
+                    }
                 }
 
                 .footer-a {

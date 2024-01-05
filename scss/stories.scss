@@ -19,7 +19,7 @@ button {
 }
 
 body {
-    background-color: #3d2828;
+    background-color: #d81e1e;
     font-family: 'DM Sans', sans-serif;
 }
 
@@ -58,6 +58,11 @@ body {
                         font-weight: 700;
                         line-height: normal;
                         letter-spacing: 2px;
+                        cursor: pointer;
+                        &:hover{
+                            transition: 0.5s;
+                            opacity: 0.3;
+                        }
                     }
                 }
             }
@@ -74,6 +79,12 @@ body {
             font-weight: 700;
             line-height: normal;
             letter-spacing: 2px;
+            cursor: pointer;
+            &:hover{
+                transition: 0.5s;
+                color: #000;
+                background: #DFDFDF;
+            }
 
         }
     }
@@ -157,6 +168,11 @@ body {
                 letter-spacing: 2px;
                 background-color: transparent;
                 margin-top: 18px;
+                cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #fff;
+                    }
 
                 img {
                     position: relative;
@@ -1286,6 +1302,11 @@ body {
                             line-height: normal;
                             letter-spacing: 2px;
                             text-transform: uppercase;
+                            cursor: pointer;
+                            &:hover{
+                                transition: 0.5s;
+                                opacity: 0.3;
+                            }
                         }
 
                         a {
@@ -1299,6 +1320,11 @@ body {
                             letter-spacing: 2px;
                             text-transform: uppercase;
                             top: 19px;
+                            cursor: pointer;
+                            &:hover{
+                                transition: 0.5s;
+                                opacity: 0.3;
+                            }
                         }
                     }
                 }
@@ -1322,6 +1348,11 @@ body {
                     font-weight: 700;
                     line-height: normal;
                     letter-spacing: 2px;
+                    cursor: pointer;
+                    &:hover{
+                        transition: 0.5s;
+                        border-bottom: 2px solid #fff;
+                    }
                 }
 
                 .footer-a {
