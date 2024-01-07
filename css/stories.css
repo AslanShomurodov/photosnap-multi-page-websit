@@ -144,6 +144,7 @@ body {
   margin-top: 24px;
 }
 .wrapper .section .section-a-menu .sec-button {
+  margin: 0 auto;
   color: #FFF;
   font-family: DM Sans;
   font-size: 12px;
